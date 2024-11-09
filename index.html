@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Repositorio Digital</title>
+    <link rel="stylesheet" href="styles_1.css">
+</head>
+<body>
+    <header>
+        <h1>Repositorio Digital - Iniciar Sesión</h1>
+    </header>
+
+    <main>
+        <section class="login-section">
+            <form id="loginForm" action="index.html" method="get">
+                <div>
+                    <label for="loginUsuario">Usuario</label>
+                    <input type="text" id="loginUsuario" name="usuario" required>
+                </div>
+                <div>
+                    <label for="loginContraseña">Contraseña</label>
+                    <input type="password" id="loginContraseña" name="contraseña" required>
+                </div>
+                <button type="submit" class="btn">Iniciar Sesión</button>
+                <p>¿No tienes cuenta? <a href="register.html">Regístrate aquí</a></p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Repositorio Digital</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
